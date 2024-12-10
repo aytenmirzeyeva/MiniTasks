@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.border {
+  width: 150px;
+  height: 150px;
+  border: 4px solid red;
+  border-radius: 50%;
+  border-color: red blue green yellow;
+  padding: 5px;
+  margin: 20% auto;
+}
+.box {
+  background-color: purple;
+  padding: 35px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 50%;
+}
+.box p {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}

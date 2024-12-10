@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #ebebeb;
+}
+.box {
+  width: 90%;
+  padding: 40px;
+  margin: 0 auto;
+}
+.card {
+  width: 220px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 30px;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card .card-header {
+  width: 100%;
+  position: relative;
+}
+.card .card-header img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card-header .like {
+  color: #fff;
+  font-size: 22px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card-header .like:hover {
+  color: red;
+  cursor: pointer;
+}
+.card-header .seller {
+  position: absolute;
+  bottom: 12px;
+  left: 9px;
+  background-color: #4164fc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: #fff;
+}
+.card-header .vip {
+  position: absolute;
+  color: gold;
+  bottom: 12px;
+  right: 9px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.card-body {
+  padding: 8px;
+}
+.card-body .price {
+  font-weight: bold;
+}
+.card-body .info {
+  margin: 8px 0;
+}
+.card-body .date {
+  color: #b4b4b4;
+}

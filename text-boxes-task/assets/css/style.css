@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+text-indent: 10px;
+}
+
+.box {
+  border: 1px solid #a8a8a8;
+  padding: 10px;
+  margin: 10px;
+}
+.box h2 {
+  text-transform: capitalize;
+}
+.box p {
+  margin: 10px 0;
+}
+.box p,
+small {
+  color: #808080;
+}

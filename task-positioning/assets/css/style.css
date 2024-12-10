@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  position: relative;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ? header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px 0;
+  z-index: 1000;
+}
+.header-content .logo {
+  display: inline-block;
+  width: 20%;
+  margin-right: 100px;
+}
+.header-content nav {
+  display: inline-block;
+  width: 45%;
+}
+.header-content .contact {
+  display: inline-block;
+  width: 20%;
+  margin-left: 50px;
+}
+.header-content nav ul {
+  list-style-type: none;
+}
+.header-content nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-content nav a:active {
+  border-bottom: 2px solid #fff;
+}
+
+/* ? introduction */
+.introduction {
+  background-image: url("../images/workplace-computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  color: #a3a3a3;
+  height: 100vh;
+  position: relative;
+}
+.introduction .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 31, 43, 0.5);
+  z-index: 1;
+}
+.introduction .intro-content {
+  margin: 100px auto;
+  position: relative;
+  z-index: 2;
+}
+.intro-content .left-side,
+.right-side {
+  display: inline-block;
+  width: 45%;
+  padding: 30px;
+}
+.introduction .left-side {
+  margin: 40px;
+  color: #fff;
+}
+.introduction .left-side h2 {
+  text-align: left;
+  font-size: 30px;
+}
+.introduction .left-side p {
+  margin: 22px 0;
+}
+.introduction .right-side form {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}
+.introduction .right-side form h3 {
+  margin-bottom: 10px;
+  color: #000;
+}
+.introduction .right-side form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 6px 18px;
+  background-color: #7a71e8;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #5f58aa;
+}
